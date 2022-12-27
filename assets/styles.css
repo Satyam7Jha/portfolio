@@ -1,3 +1,120 @@
 body{
+    margin:0
+
+}
+
+.header{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+
+}
+.header-left{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro{
+    margin-top: -30px;
+    width: 70%;
+
+}
+a{
+    color: #6984b2;
+    margin-right: 15px
+}
+.desc{
+    color: gray;
+    font-size: 40px;
+    font-weight: bold;
+}
+article{
+    color:gray;
+    text-align: justify;
+}
+.header-text{
+    color: #6984b2;
+    font-weight: bolder;
+    font-size: 30px;
+  
+}
+.header-desc{
+    color:grey
+}
+.profile-img{
+    height: 500px;
     
+}
+.social-media-icon{
+    margin-top: 30px;
+    color:#6984b2;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.icons-hover:hover{
+opacity: 0.8;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+.skill-left{
+}
+.skill-img{
+    height: 480px;
+    margin-left: 50px;
+}
+.skill-right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:start;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.skill{
+    border-radius: 10px;
+    border:3px solid gray;
+    background-color: gray;
+    height: fit-content;
+    padding: 9px;
+    color:white;
+    margin: 25px;
+
+}
+.skill:hover{
+    border:3px solid white;
+}
+.work-exp{
+    background-color: #d5e5f1;
+    display: flex;
+    flex-direction: row;
+}
+.left-work{
+    width: 100%;
+    padding-top: 80px;
+    padding-left: 20px;
+    color: grey;
+    font-weight: bolder;
+}
+.right-work{
+
+}
+
+.projects{
+    color:#6984b2;
+    display: flex;
+    padding: 20px;
+    min-height: 200px;
+    padding-bottom: 100px;
+    padding-top: 60px;
+
+}
+.link-icon{
+    margin-left:10px
 }
